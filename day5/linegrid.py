@@ -47,10 +47,6 @@ class LineGrid:
 
     for i in range(len(xRange)):
       self._drawToCell(xRange[i], yRange[i])
-
-    # for y in yRange:
-    #   for x in xRange:
-    #     self._drawToCell(x, y)
   
   def _checkForTrueDiagonal(self, p1, p2):
     if (p1[1] == p2[1]): return False
